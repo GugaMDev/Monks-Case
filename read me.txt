@@ -5,4 +5,4 @@ foi um desafio e tanto pra mim.
 O objetivo do projeto foi fazer um site para que, quem for viajar a primeira vez, ou precisa
 de alguma ajuda com a primeira viagem, conseguisse ficar bem funcional.
 
-Clique AQUI e vá ao link do site
+Acesse o site do projeto: https://gugamdev.github.io/Monks-Case/
