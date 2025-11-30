@@ -45,6 +45,9 @@ document.addEventListener('DOMContentLoaded', iniciarNovoCaptcha);
             iniciarNovoCaptcha();
         }
     });
+
+    // Verificação de senha 
+    
     function toggleSenha(idCampo) {
     const campo = document.getElementById(idCampo);
     campo.type = campo.type === 'password' ? 'text' : 'password';

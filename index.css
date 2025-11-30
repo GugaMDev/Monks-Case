@@ -195,7 +195,6 @@ display: none;
 }
 
 /* BANNER */
-/* BANNER */
 .banner {
   margin: 50px;
   padding: 30px 40px;
@@ -240,7 +239,6 @@ display: none;
   }
 }
 
-
     /* TAGS */
 
 .section {
@@ -264,7 +262,6 @@ display: none;
     padding: 40px 60px;
     justify-content: center;
 }
-
 .tag {
     background: #f3eaff;
     border: 1px solid #c7a8ff;
@@ -295,14 +292,12 @@ display: none;
     flex-direction: column;
     
 }
-
 .final-card {
     background: white;
     padding: 25px;
     border-radius: 12px;
     flex: 1 1 100%;
 }
-
 .final-card button {
     background: #5b2bd5;
     border: none;
@@ -323,6 +318,7 @@ display: none;
 }
 
 /* FOOTER */
+
 .footer {
     background: #111;
     padding: 40px;
@@ -335,6 +331,7 @@ display: none;
 }
 
 /* RESPONSIVIDADE */
+
 @media (max-width: 900px) {
 
     .nav-desktop {
@@ -358,7 +355,9 @@ display: none;
         text-align: center;
     }
 }
+
 /* ===== CARDS ===== */
+
 .cards-section {
     display: flex;
     gap: 25px;
@@ -403,7 +402,6 @@ display: none;
     text-decoration: none;
  
 }
-
 .card button:hover {
     background-color: #c49df7; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
@@ -413,7 +411,6 @@ display: none;
     color: inherit;
       display: grid;
 }
-    
 
 /* ===== FORMULÁRIO ===== */
 
@@ -435,61 +432,51 @@ display: none;
     color: #000;
     width: 500px;
 }
-
 .form-container h2 {
     font-size: 22px;
     margin-bottom: 5px;
 }
-
 .form-container p {
     font-size: 14px;
     margin-bottom: 20px;
     color: #444;
 }
-
 .form-container form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
 }
-
 .form-container input {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 6px;
     outline: none;
 }
-
 .campo-senha {
   display: flex;
   align-items: center;
   gap: 8px;
   margin-bottom: 12px;
 }
-
 .campo-senha input {
   flex: 1;
   padding: 8px;
 }
-
 .campo-senha button {
   background: none;
   border: none;
   font-size: 18px;
   cursor: pointer;
 }
-
 .captcha-area {
     grid-column: 1 / 3;
 }
-
 .captcha-box {
     display: flex;
     align-items: center;
     gap: 10px;
     margin-top: 8px;
 }
-
 .captcha-box span {
     display: inline-block;
     background: #e2d6ff; 
@@ -499,11 +486,9 @@ display: none;
     text-align: center;
     min-width: 40px; 
 }
-
 .captcha-box input {
     width: 120px;
 }
-
 .captcha-area button {
     grid-column: 1 / 3;
     padding: 12px;
@@ -513,37 +498,31 @@ display: none;
     margin-top: 12px;
     cursor: pointer;
 }
-
 @media (max-width: 768px) {
   .form-section {
     flex-direction: column;
     padding: 30px 15px;
     text-align: center;
   }
-
   .form-container {
     width: 100%;
     max-width: 360px;
     margin-bottom: 25px;
     padding: 25px;
   }
-
   .form-container h2 {
     font-size: 22px;
     margin-bottom: 8px;
   }
-
   .form-container p {
     font-size: 15px;
     margin-bottom: 20px;
     line-height: 1.4;
   }
-
   .form-container input {
     font-size: 5px;
     padding: 8px;
   }
-
   .form-container button {
     font-size: 15px;
     padding: 10px 16px;
@@ -555,22 +534,15 @@ display: none;
     margin: 0 auto;
   }
 }
-
-
-
-
-
   .illustration img {
     width: 100%;
     max-width: 280px;
   }
 
-
-
 /* Imagem ao lado */
+
 .illustration img {
     width: 300px;
-    
 }
 
 /* ===== FOOTER ===== */
